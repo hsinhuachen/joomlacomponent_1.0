@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field 
+            name="id" 
+            type="hidden" />
+		<field 
+            name="title" 
+            type="textarea" 
+            label="類別名稱"
+            class="" />
+            <field 
+            name="parents" 
+            type="text"
+		label="上層"
+            class="" />
+            <field 
+            name="type" 
+            type="text"
+            label="分類類別"
+            class="" />
+		<field 
+            name="ordering" 
+            type="text" 
+            label="排序"
+            class="" />
+	</fieldset>
+
+</form>

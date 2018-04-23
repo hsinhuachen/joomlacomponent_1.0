@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field 
+            name="id" 
+            type="hidden" />
+		<field 
+            name="title" 
+            type="textarea" 
+            label="標題"
+            class="input-xxlarge input-large-text" />
+		<field 
+            name="link" 
+            type="textarea" 
+            label="連結"
+            class="" />
+       <field 
+            name="message" 
+            type="textarea"
+			label="內容"
+            class="" />
+       <field 
+            name="photo" 
+            type="hidden" 
+            label="圖片"
+            class="" />
+      <field name="myimage" type="media" directory="" />
+		<field 
+            name="ordering" 
+            type="text" 
+            label="排序"
+            class="" />
+		<field 
+            name="state" 
+            type="text" 
+            label="state"
+            class="" />
+	</fieldset>
+
+</form>

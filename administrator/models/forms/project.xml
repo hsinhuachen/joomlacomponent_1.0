@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field 
+            name="id" 
+            type="hidden" />
+	 <field 
+            name="title" 
+            type="textarea" 
+            label="標題"
+            class="normal" />
+       <field 
+            name="message" 
+            type="editor"
+			label="內容"
+            class="" />
+      <field 
+            name="spec" 
+            type="textarea"
+                  label="規格"
+            class="" />
+       <field 
+            name="photo" 
+            type="hidden" 
+            label="圖片"
+            class="" />
+		<field 
+            name="category" 
+            type="text"
+			label="類別"
+            class="" />
+		<field 
+            name="ordering" 
+            type="text" 
+            label="排序"
+            class="" />
+            <field 
+            name="state" 
+            type="text" 
+            label="state"
+            class="" />
+            <field 
+            name="account" 
+            type="text" 
+            label="作者"
+            class="" />
+            <field 
+            name="modifytime" 
+            type="text" 
+            label="更改日期"
+            class="" />
+	</fieldset>
+
+</form>
